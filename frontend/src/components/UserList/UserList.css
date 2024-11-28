@@ -1,0 +1,90 @@
+.user-list-container {
+    min-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .user-list-title {
+    color: #d63384;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-list-message {
+    color: #d63384;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .user-list-table th, .user-list-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .user-list-table th {
+    background-color: #f8d7da;
+    color: #d63384;
+    font-weight: bold;
+  }
+  
+  .user-list-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-list-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .user-list-edit-button, .user-list-delete-button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .user-list-edit-button {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .user-list-edit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .user-list-delete-button {
+    background-color: #d63384;
+    color: #fff;
+  }
+  
+  .user-list-delete-button:hover {
+    background-color: #e85d90;
+  }
+  .user-list-search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .user-list-search:focus {
+    outline: none;
+    border-color: #d63384;
+    box-shadow: 0 0 5px rgba(214, 51, 132, 0.5);
+  }
+  
